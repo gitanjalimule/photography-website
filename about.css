@@ -1,0 +1,40 @@
+
+.about-section {
+  padding:20px;
+  background-image: url("img2.webp");
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-container {
+  max-width: 700px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 200px;
+}
+
+.about-image img {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.about-content {
+  flex: 1;
+  min-width: 280px;
+}
+
+.about-content h2 {
+  font-size: 36px;
+  color: #090909;
+  margin-bottom: 20px;
+}
+
+.about-content p {
+  font-size: 18px;
+  color: #1b1515;
+  line-height: 1.9;
+  margin-bottom: 15px;
+}
